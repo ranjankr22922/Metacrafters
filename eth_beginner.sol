@@ -51,3 +51,29 @@ pragma solidity 0.8.26;
 // contract Var{
 //     address public MY_ADDRESS = 0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc;  //2483 gas
 // }
+
+
+// contract Array{
+//     uint[] public nums = [1,2,3];                 //dynamic
+//     uint[3] public numsFixed = [4,5,6];           //static
+
+//     function examples() external {
+//         nums.push(4);       //  [1,2,3,4]
+//         uint x = nums[1];   //  2
+//         nums[2] = 777;      //  [1,2,777,4]
+//         delete nums[1];     //  [1,0,777,4]
+//         nums.pop();         //  [1,0,777]
+//         uint len = nums.length;
+
+//         // Create array in memory
+//         uint[] memory a = new uint[](5);   // updation is possible but not push and pop as array size is fixed.
+//         a[1] = 123;
+//         //  a.push();      
+//         //  a.pop();
+//     }
+
+//     // can use a function which return an array but it is not recommended as it uses infinite gas. 
+//     function returnArray() external view returns (uint[] memory){
+//         return nums;
+//     } 
+// }
