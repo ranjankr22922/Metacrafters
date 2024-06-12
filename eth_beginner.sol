@@ -23,16 +23,6 @@ pragma solidity 0.8.26;
 // }
 
 
-
-
-
-
-
-
-
-
-
-
 // Data types - values and references
 
 // contract ValueTypes{
