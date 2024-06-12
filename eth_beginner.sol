@@ -52,7 +52,7 @@ pragma solidity 0.8.26;
 //     address public MY_ADDRESS = 0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc;  //2483 gas
 // }
 
-
+// Arrays
 // contract Array{
 //     uint[] public nums = [1,2,3];                 //dynamic
 //     uint[3] public numsFixed = [4,5,6];           //static
@@ -77,3 +77,5 @@ pragma solidity 0.8.26;
 //         return nums;
 //     } 
 // }
+
+
