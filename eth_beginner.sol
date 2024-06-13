@@ -138,16 +138,16 @@ pragma solidity 0.8.26;
 
 
 // Gas
-contract Gas{
-    function testGasRefund() public returns (uint){
-        return tx.gasprice;
-    }
+// contract Gas{
+//     function testGasRefund() public returns (uint){
+//         return tx.gasprice;
+//     }
 
-    uint public i=0;
+//     uint public i=0;
 
-    function forever() public {
-        while (true){
-            i+=1;
-        }
-    }
-}
+//     function forever() public {
+//         while (true){
+//             i+=1;
+//         }
+//     }
+// }
