@@ -135,3 +135,19 @@ pragma solidity 0.8.26;
 //         isFriend[msg.sender][address(this)] = true;
 //     }
 // }
+
+
+// Gas
+contract Gas{
+    function testGasRefund() public returns (uint){
+        return tx.gasprice;
+    }
+
+    uint public i=0;
+
+    function forever() public {
+        while (true){
+            i+=1;
+        }
+    }
+}
