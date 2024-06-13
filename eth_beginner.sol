@@ -203,3 +203,15 @@ pragma solidity 0.8.26;
 //         return s;
 //     }
 // }
+
+
+// // Function
+// contract FunctionIntro{
+//     function add(uint x, uint y) external pure returns (uint){
+//         return x+y;   
+//     }
+
+//     function sub(uint x, uint y) external pure returns (uint){
+//         return x-y;   
+//     }
+// }
