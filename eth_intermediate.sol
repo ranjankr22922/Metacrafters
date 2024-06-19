@@ -37,3 +37,12 @@ pragma solidity 0.8.26;
 //         }
 //     }
 // }
+
+
+//  Modifier with parameters
+// modifier costs(uint price){
+//     if(msg.value >= price){
+//         _;
+//     }
+// }
+
