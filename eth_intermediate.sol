@@ -24,4 +24,16 @@ contract greatestnum{
         c=_c;
         d=_d;
     }
+
+    function get() public view onlyOwner returns(uint){
+        if((a>b) && (a>c) && (a>d)){
+            return (a);
+        }
+        else if ((b>c) && (b>d) && (b>a)){
+            return (b);
+        }
+        else{
+            return (d);
+        }
+    }
 }
